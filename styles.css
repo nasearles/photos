@@ -1,0 +1,219 @@
+/*HORIZONTAL BAR STYLES*/
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-y: hidden;
+  padding-top: 30px;
+}
+
+.head {
+  height: 44px;
+  padding: 10px 8px 6px 16px;
+  font-variant: small-caps;
+  font-size: 38px;
+  text-decoration: overline solid maroon;
+  color
+
+}
+
+.navbar a {
+  padding-left: 15%;
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline white;
+}
+
+.page a {
+  text-decoration: none;
+  font-size: 30px;
+  color: maroon;
+  display: inline-block;
+}
+
+.page {
+  margin-top: 90px;
+  padding: 0px 10px;
+  font-family: Georgia;
+}
+
+.page2 {
+  margin-top: 90px;
+  height: 100%;
+  width: 100%;
+  font-family: Lucida Console;
+  font-weight:900;
+  color:Green;
+  background-color:black
+}
+
+.page a:hover {
+  color: turquoise;
+  text-decoration: underline turquoise;
+}
+
+/*END HORIZONTAL MENU BAR*/
+
+/*SLIDESHOW/CAROUSEL STYLES*/
+
+.slideshow-container {
+  max-width: 1800px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.slidecount {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*END CAROUSEL STYLES*/
+
+/* SCROLLBOX STYLE*/
+
+.scroll-container{
+  width: 95%;
+  height: 650px;
+}
+
+.scrollbox {
+  width: 50%;
+  height: 95%;
+  overflow-y: scroll;
+  float: left;
+}
+
+.texbox {
+
+  width: 40%;
+  height: 95%;
+  background: snow;
+  font-size: 24px;
+  float: right;
+}
+
+.im {
+  margin: 0 auto;
+  padding-bottom: 15px;
+  width: 90%;
+}
+
+.im90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin: 0 auto;
+  padding-top: 200px;
+  width: 90%;
+}
+
+p {
+  font-size: 20px;
+  font-variant: normal;
+  font-family: Georgia;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dlbutt {
+background-color: Maroon;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.dlbutt:hover{
+  background-color: DodgerBlue;
+}
